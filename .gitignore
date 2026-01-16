@@ -416,3 +416,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Excluded by myself
+/src/CLI/Setup/Output
+/src/CLI/bin

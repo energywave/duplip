@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Duplip", "Duplip.vbproj", "{C858F7F2-A4FB-4EBB-A827-FF8D35F5412D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug anonymized|Any CPU = Debug anonymized|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C858F7F2-A4FB-4EBB-A827-FF8D35F5412D}.Debug anonymized|Any CPU.ActiveCfg = Debug anonymized|Any CPU
+		{C858F7F2-A4FB-4EBB-A827-FF8D35F5412D}.Debug anonymized|Any CPU.Build.0 = Debug anonymized|Any CPU
+		{C858F7F2-A4FB-4EBB-A827-FF8D35F5412D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C858F7F2-A4FB-4EBB-A827-FF8D35F5412D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C858F7F2-A4FB-4EBB-A827-FF8D35F5412D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C858F7F2-A4FB-4EBB-A827-FF8D35F5412D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {909641AB-FEF5-4A26-AAE5-6E0CC8CC6A5C}
+	EndGlobalSection
+EndGlobal
