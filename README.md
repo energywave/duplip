@@ -1,3 +1,5 @@
+[![Latest Release](https://img.shields.io/github/v/release/energywave/duplip?style=for-the-badge&logo=github&color=007bed)](https://github.com/energywave/duplip/releases/latest)
+
 # Duplip
 
 **Duplip** is a command-line tool for detecting **duplicate IP addresses** on a local subnet by capturing and analyzing ARP packets (via Npcap) to identify multiple MAC addresses responding to the same IP.
