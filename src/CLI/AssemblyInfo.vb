@@ -28,8 +28,8 @@ Imports System.Runtime.InteropServices
 '      Revisione
 '
 
-<Assembly: AssemblyVersion("1.2.1.6")>
-<Assembly: AssemblyFileVersion("1.2.1.6")>
+<Assembly: AssemblyVersion("1.2.2.7")>
+<Assembly: AssemblyFileVersion("1.2.2.7")>
 'CHANGELOG
 '1.0.0.0 - 12/01/2026
 ' - Initial release
@@ -48,3 +48,5 @@ Imports System.Runtime.InteropServices
 ' - Added Debug Anonymized solution configuration for making screenshots
 ' - Added CTRL+D to insert fictious duplicate IP for making screenshots and debug
 ' - Corrected some alignments
+'1.2.2.7 - 12/03/2026
+' - Exclude IP 0.0.0.0 from detection as it is a normal condition in some cases (e.g. when a device is not connected to the network yet)

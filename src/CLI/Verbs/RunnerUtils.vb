@@ -11,9 +11,12 @@ Public Class RunnerUtils
             Dim SenderIP As String = arp.SenderProtocolAddress.ToString
             Dim SenderMAC As String = MacAddressToString(arp.SenderHardwareAddress, CaptureDev)
 
+            'If the sender IP is 0.0.0.0 we discard the packet as it is a normal condition in some cases (e.g. when a device is not connected to the network yet)
+            If SenderIP = "0.0.0.0" Then Return
+
             'If we have a target IP and the IP is not the wanted one: exit
             If TargetIP IsNot Nothing AndAlso TargetIP.ToString <> SenderIP Then Return
-            'Ignora pacchetti inviati dall'interfaccia locale
+            'Ignores packets sent from the local interface
             If AreMacEqual(arp.SenderHardwareAddress.GetAddressBytes(), CaptureDev.MacAddress.GetAddressBytes()) Then Exit Sub
 
             Select Case arp.Operation
